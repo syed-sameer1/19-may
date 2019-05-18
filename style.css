@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+marquee {
+  background: #ed484c;
+  color: white;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+mark {
+  font-weight: 900;
+  padding: 0 5px;
+  color: black;
+}
+
+header {
+  display: flex;
+  background: #4c4c4c;
+  justify-content: space-between;
+}
+
+header img {
+  height: 35px;
+  margin: 10px 20px;
+}
+
+header ul {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+header ul li {
+  list-style: none;
+  margin: 0 15px;
+  padding: 20px 5px;
+  align-items: center;
+  color: #c9c9c9;
+  justify-content: stretch;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+header ul li:hover {
+  background: #1f1f1f;
+  transition: 0.3s;
+  color: white;
+}
+
+/* header */
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* section-1 */
+
+.join {
+  background: #f18d97;
+  background-image: url(images/floral.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.join h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 60px;
+  margin: 70px 100px 60px 100px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.join p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 300px;
+  font-size: 21px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px 30px;
+}
+
+.join button {
+  background: black;
+  color: #f18d97;
+  border: transparent;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 25px 90px;
+  margin: 20px 50px 30px 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.join button:hover {
+  background: rgb(175, 39, 39);
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* section-1 */
+
+/* section-2 */
+
+.Services {
+  background: #efece7;
+  background-image: url(images/floral.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Services h2 {
+  font-family: 'Pacifico', cursive;
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+.Services #icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.size {
+  font-size: 120px;
+}
+
+.size:hover {
+  color: rgb(175, 39, 39);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.html {
+  text-align: center;
+  margin: 20px 50px 50px 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.html .heading {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.html .details {
+  font-size: 15px;
+}
+
+/* section-2 */
+
+.Portfolio {
+  background: #ddceb4;
+  background-image: url(images/floral.png);
+  display: flex;
+}
+
+.Contact {
+  background: #afc7c6;
+  background-image: url(images/floral.png);
+  display: flex;
+}
+
+/* main */
+
+/* media */
+
+@media (max-width: 816px) {
+  .join p {
+    margin: 0 50px;
+  }
+  .Services #icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .html {
+    margin: 20px 200px 50px 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .html {
+    margin: 20px 100px 50px 100px;
+  }
+}
+
+/* media */
